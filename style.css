@@ -25,7 +25,7 @@ main{
     justify-content: space-between;
 }
 
-.contenedorcajatext{
+.contenedorcajatexto{
     position: absolute;
     left: 200px;
     top: 100px;
@@ -34,7 +34,7 @@ main{
     height: 600px;
 }
 
-.cajaTexto{
+.cajatexto{
     width: 40%;
     height: 30%;
     border: none;
@@ -45,20 +45,20 @@ main{
     font-weight: 400;
 }
 
-.cajaTexto::placeholder{
+.cajatexto::placeholder{
     color: #0a3871;
 }
 
 .alerta{
     position: absolute;
-    top: 450px;
+    top: 510px;
     left: 470px;
     display: flex;
     color: #495057;
     padding-top: 15px;
 }
 
-.conBotones{
+.contenedor-botones{
     position: absolute;
     top: 550px;
     height: 80px;
@@ -93,7 +93,7 @@ main{
     border: 1px solid ;
 }
 
-.secc2{
+.section2{
     display: block;
     position: relative;
     width: 400px;
@@ -107,22 +107,21 @@ main{
     
 }
 
-.cont-muneco{
-    position: ;
+.contenedormunieco{
     left: 30px;
     top: 60px;
     box-sizing: border-box;
     padding-top: 50PX;
 }
 
-.contParrafo{
+.contenedor-parrafo{
     position: absolute;
     box-sizing: border-box;
     top: 340PX;
     left: 20PX;
 }
 
-.contParrafo h3{
+.contenedor-parrafo h3{
     font-size: 24px;
     font-weight: 400;
     font-size: 16px;
@@ -130,7 +129,18 @@ main{
     color: #495057;
 }
 
-.contParrafo p{
+.contenedor-resultado{
+    position: absolute;
+    bottom: 410px;
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 5px;
+    background-color:blue;
+}
+
+.contenedor-parrafo p{
     font-weight: 400;
     font-size: 16px;
     text-align: center;
@@ -138,18 +148,7 @@ main{
     padding-top: 20px;
 }
 
-.contresultado{
-    position: absolute;
-    bottom: 410px;
-    width: 350px;
-    height: 200px;
-    padding: 0;
-    box-sizing: border-box;
-    margin-left: 25px;
-    background-color:;
-}
-
-.contresultad{
+.contenedor-resultado{
     color: #495057;
     font-size: 25px;
 }
@@ -165,7 +164,7 @@ main{
     border: 1px solid #0a3871;
     cursor:pointer;
     position: relative;
-    top: 100px;
+    top: 140px;
     right: 4px;
 }
 
